@@ -1,0 +1,138 @@
+export interface PlaceTag {
+  name: string;
+  blurb: string;
+}
+
+export const COMMUNITY_TAGS: PlaceTag[] = [
+  { name: "Ancient Infrastructure", blurb: "A still-working luxury of the old world — water, walls, climate, or moving roads — that the town cannot repair and dares not lose." },
+  { name: "Bad Neighbors", blurb: "A personal feud with the next community: skirmishes, sabotage, and no clean claim of who started it." },
+  { name: "Blood Feud", blurb: "Two native factions hate each other. Law keeps the knives mostly sheathed; everything else is fair game." },
+  { name: "Brilliant Innovation", blurb: "Someone here has a profitable new process, crop, or use for ancient trash. Everyone wants a piece of it." },
+  { name: "Broken Spirits", blurb: "Pride and hope are gone. The dutiful go through the motions; the rest sell themselves cheaply." },
+  { name: "Corrupt Laws", blurb: "Justice is for sale, or does not apply to the favored. Strangers get fleeced; gentry do as they please." },
+  { name: "Criminal Bosses", blurb: "One or more bosses run the night — or use this place as a quiet throne. Local law knows, and cannot or will not move." },
+  { name: "Cultural Center", blurb: "Famous art, cloth, scholarship, or a school of masters. The product is the town’s name abroad." },
+  { name: "Cursed Circumstances", blurb: "A blight makes life harder without emptying the streets. The question is why anyone still stays." },
+  { name: "Decadent Locals", blurb: "Repulsive vices are custom, trade, or creed. The economy may depend on them." },
+  { name: "Decaying Working", blurb: "A great Working that made this place possible is fraying, stuttering, or turning double-edged." },
+  { name: "Demihuman Populace", blurb: "A demihuman people hold the majority or the high seats. Law and architecture are tuned to them, not to humans." },
+  { name: "Dueling Lords", blurb: "Two powers claim the place — rival lords, a baron and a merchant-prince, a mayor and a high priest." },
+  { name: "Enemy Within", blurb: "The locals are sure a hidden evil works among them. The hunt may be worse than the thing hunted." },
+  { name: "Faded Remnant", blurb: "Once much larger. A tithe of citizens rattle around inherited halls they cannot keep." },
+  { name: "Fallen Prosperity", blurb: "Riches collapsed recently. Factions claw at what is left, or hunt a culprit to blame." },
+  { name: "Foreign Enclave", blurb: "Most or many locals are of another people, keeping foreign law and custom under a suzerain who is not theirs." },
+  { name: "Guild Oligarchy", blurb: "Guild seniors are the real government. They parcel work, squeeze rivals, and treat the official ruler as furniture." },
+  { name: "Heavy Fortification", blurb: "Walls, troops, or terrain far beyond the town’s size. Someone thinks the cost is worth it — or profits by saying so." },
+  { name: "Hidden Ruler", blurb: "The public face is not the authority. A cult, a blackmailer, or a quiet bargain actually decides." },
+  { name: "Hostile Terrain", blurb: "Swamp, arratu, crevasse, or poison land hems them in. Defense, a lode, or stubbornness keeps them here." },
+  { name: "Incompetent Leaders", blurb: "Whoever won the seat cannot rule it — passion, obstinacy, a toy ideal, or simple laziness." },
+  { name: "Inherited Architecture", blurb: "They live in someone else’s city: strange stone, buried streets, and corners no one has opened in an age." },
+  { name: "Inhuman Cooperation", blurb: "A deal with Outsiders, eldritch things, or monsters. It may be old enough that neighbors look away." },
+  { name: "Lawless Class", blurb: "Some caste is above the law — high birth, or so low their murders of each other are not worth a clerk." },
+  { name: "Magical Academy", blurb: "A real school of magic, usually small and accident-prone. Useful enough that the town endures the noise." },
+  { name: "Martial Tradition", blurb: "They know steel. Neighbors respect it, and the locals are quicker to draw than is wise." },
+  { name: "Miserable Penury", blurb: "Even the gentry are poor. Something — fear, hope, or ancestral dirt — keeps them from leaving." },
+  { name: "Mistreated Blighted", blurb: "Useful Blighted are treated as expendable chattel. They cannot easily live without their tormentors." },
+  { name: "Monstrous Tribute", blurb: "They pay a vile tithe to some unspeakable thing for protection, forbearance, or a gift they will not name." },
+  { name: "Neglectful Ruler", blurb: "The ostensible suzerain does not answer. The viceroy lies, a local seizes, or the lord is punishing them." },
+  { name: "New Industry", blurb: "A new trade is making real money. Old gentry hate it, bought it, or are using it to crush everyone else." },
+  { name: "Pilgrimage Site", blurb: "A shrine, academy, or ancient work draws strangers. Locals fight over the gate and the coin." },
+  { name: "Plagued City", blurb: "A recurrent sickness is the price of living here — curse, toxin, or byproduct of whatever justifies the city." },
+  { name: "Population Boom", blurb: "Newcomers have poured in: opportunity, flight, or a ruler’s scheme to dilute the natives." },
+  { name: "Raider Scourge", blurb: "Bandits hit them again and again. They lack the men or the political leave to end it." },
+  { name: "Rebel Stronghold", blurb: "Open or tacit revolt. Loyalists keep their mouths shut or burn." },
+  { name: "Rigid Castes", blurb: "People cannot imagine another order. Role, blood, or origin fixes what you may do and whom you may touch." },
+  { name: "Scars of War", blurb: "A recent fight still bleeds — a raid, a siege, a battle’s edge, or youths spent on a border that never sleeps." },
+  { name: "Seat of Rule", blurb: "A lord, pontiff, magus, or house of consequence keeps court here. Their wishes are a local weather." },
+  { name: "Secret Treachery", blurb: "The leadership is already sold — to the suzerain’s enemy, or to a better offer. Public officers are kept blind." },
+  { name: "Sinking City", blurb: "The ground is failing: swamp, coast, or a buried city giving way. Things come up as the streets go down." },
+  { name: "Theocratic Authorities", blurb: "Clerics are the last word, by law or by a temple too big to refuse." },
+  { name: "Toxic Economy", blurb: "The staple good sickens people as it is made. Neighbors or a lord may be the ones who insist they keep making it." },
+  { name: "Trade Hub", blurb: "Rivers, a crossroads, or the only safe path. Tariffs feed a garrison; the market is the town." },
+  { name: "Unique Product", blurb: "Something is made here that cannot be had elsewhere — a lode, a secret craft, or a people who can do one thing." },
+  { name: "Upstart Faith", blurb: "A new sect, prophet, or well-funded import is gaining fast. Old temples are no longer bored." },
+  { name: "Warring Council", blurb: "More than one leader, and at least two of them are at each other’s throats. Civic work waits." },
+  { name: "Widespread Prosperity", blurb: "Even commoners eat well. Neighbors envy them; raiders take notes." },
+  { name: "Xenophobic Locals", blurb: "Outsiders are despised. The few allowed to trade do so at a heavy disadvantage." },
+];
+
+export const COURT_TAGS: PlaceTag[] = [
+  { name: "Affliction's Mark", blurb: "An incurable illness gnaws the court — the ruler, a beloved, or a spreading curse. Acute cases hunt a cure; chronic ones need a costly remedy." },
+  { name: "Ancestral Obligation", blurb: "The founder charged them with a duty. Influence hinges on doing the work. Neglect is disgrace, and may break old pacts." },
+  { name: "Awesome Legitimacy", blurb: "No one can imagine this court ceasing. Locals scheme to seize or compel it, not to erase it." },
+  { name: "Awkward Birth", blurb: "A pregnancy that should not exist is roiling the house — the wrong father, a blighted heir, or a child who unseats someone dangerous." },
+  { name: "Blandished Leadership", blurb: "Pretty favorites steer the ruler. The day’s business waits on the night’s." },
+  { name: "Cadet Branches", blurb: "Power is splintered among junior lines. Some would rather see the court die than let a rival hold it." },
+  { name: "Capricious Orders", blurb: "Unreasonable tribute and obediences. A new lord testing strength, a court in panic, or a rival goading them to overreach." },
+  { name: "Cultural Insignia", blurb: "They make or patronize a revered art. Cultured people will help them just to stand near the luster." },
+  { name: "Daring Ambition", blurb: "A grand bet is driving them. Failure wrecks the court; success pays unevenly among those who bled for it." },
+  { name: "Dark Secret", blurb: "A hidden crime, bastardy, or pact would cost them dearly if named. The inner circle knows; the rest suspect." },
+  { name: "Decadent Court", blurb: "Pleasure has replaced the work that earned their station. Cooperation is bought with coin or flesh." },
+  { name: "Devil's Bargain", blurb: "An old pact is coming due. The help they took now wants a price that could destroy them — and the pact was secret." },
+  { name: "Diplomatic Demands", blurb: "A foreign power wants something the court cannot easily give — marriage, troops, a rite, or a public humiliation." },
+  { name: "Disputed Inheritance", blurb: "Two or more claims on the same seat, purse, or relic. Papers, blood, and knives are all in play." },
+  { name: "Excess Heirs", blurb: "Too many legitimate successors. Each has a faction; none will stand aside cleanly." },
+  { name: "False Prize", blurb: "They are fighting over something that will not be worth the winning — a poisoned title, a ruined estate, a lie dressed as a prize." },
+  { name: "Fatal Extravagance", blurb: "Spending has become a weapon and a habit. The books will not survive another season of magnificence." },
+  { name: "Forbidden Romance", blurb: "A love the court cannot acknowledge is steering appointments, secrets, and vendettas." },
+  { name: "Foreign Ties", blurb: "Their real backing, spouses, or coin come from abroad. Locals wonder whose court this actually is." },
+  { name: "Gate Keeper", blurb: "One person or office controls access to the ruler. Petitions die in that antechamber unless paid or loved." },
+  { name: "Hidden Blight", blurb: "Someone important is changing — curse, Outsider blood, or a slow monstrous gift — and the court is covering it." },
+  { name: "Hopeless Rival", blurb: "A rival they cannot ignore and cannot beat is wasting their strength on a fight already lost." },
+  { name: "Impure Blood", blurb: "A stain on the lineage — foreign, Blighted, or bastard — is either a secret, a slur, or both." },
+  { name: "Inadequate Tools", blurb: "They have the right to act and not the means: empty coffers, useless retainers, or a charter no one will honor." },
+  { name: "Inept Ruler", blurb: "The person on the seat cannot do the job. Custom, fear, or a missing alternative keeps them there." },
+  { name: "Iron Law", blurb: "Precedent and statute are treated as holy. Mercy looks like rebellion; a clever clerk is more dangerous than a captain." },
+  { name: "Lost Purpose", blurb: "The court no longer remembers why it exists. Ritual continues; the work that justified the ritual does not." },
+  { name: "Magical Subversion", blurb: "Sorcery is steering members — geas, glamours, or a Working bound into the hall itself." },
+  { name: "Ministerial Capture", blurb: "The ministers run the court. The ruler signs what is put in front of them, or pretends not to notice." },
+  { name: "New Generation", blurb: "Young members want a different court. Elders hear treason in every reform." },
+  { name: "New Opportunity", blurb: "A fresh chance — a lode, a war, a vacant office — has every faction lunging at once." },
+  { name: "Outside Debts", blurb: "They owe money, favors, or hostages to someone who is not in the room and does not care about their dignity." },
+  { name: "Overextended Grasp", blurb: "They have claimed more land, offices, or clients than they can hold. Something will drop." },
+  { name: "Poisonous Cliques", blurb: "The court is several courts. Each clique would rather harm the others than serve the whole." },
+  { name: "Priestly Influence", blurb: "A faith has a seat at every decision. Secular members smile and count the tithe." },
+  { name: "Proxy Speaker", blurb: "The real will is spoken by someone who is not the official voice — a favorite, a ghost, a foreign envoy." },
+  { name: "Rampant Corruption", blurb: "Offices are priced. The honest are dangerous because they cannot be predicted." },
+  { name: "Recent Brutality", blurb: "A purge, a massacre, or a public torture is still wet. Fear is policy; revenge is scheduling." },
+  { name: "Regency Council", blurb: "The true ruler is a child, a corpse, or a captive. The council rules in their name and does not agree." },
+  { name: "Restive Lessers", blurb: "Clients, tenants, or junior officers are done being quiet. The next insult may be a revolt." },
+  { name: "Rival Dreams", blurb: "Two grand plans cannot both happen. Each has a champion who will wreck the other dream to save their own." },
+  { name: "Rival Power", blurb: "Another court of equal weight shares the city or the kingdom. Courtesy is thin." },
+  { name: "Ruling Regalia", blurb: "A crown, seal, relic, or chair is the law. Whoever holds the thing holds the court — or pretends to." },
+  { name: "Runaway Rule", blurb: "Decrees multiply. No one can stop the machine of commands, including the people issuing them." },
+  { name: "Shining Successor", blurb: "An heir or deputy is so obviously better that the incumbent looks like an interlude. That is not safe for anyone." },
+  { name: "Splendid Seat", blurb: "The hall, palace, or temple is itself a political fact — a prize, a stage, and a bill they can barely pay." },
+  { name: "Sublime Skill", blurb: "Someone here is genuinely the best at a needed art. The court orbits that competence, and so do its enemies." },
+  { name: "Sudden Strength", blurb: "They have just become much more dangerous — a victory, a Working, a marriage. Neighbors are adjusting." },
+  { name: "Threatened Violence", blurb: "Steel is on the table. A duel, a street war, or an assassination season has already begun." },
+  { name: "Waning Wealth", blurb: "The money is going. Habits have not. Someone will sell a friend before they sell a luxury." },
+];
+
+export const RUIN_TAGS: PlaceTag[] = [
+  { name: "Ancient Seal", blurb: "Something was locked here on purpose. The lock is failing, or someone wants it opened." },
+  { name: "Cult Colony", blurb: "A living faith still uses the ruin as shrine, nest, or slaughter-yard." },
+  { name: "Cursed Ground", blurb: "The place itself is hostile — Legacy flux, a dying Working, or a god’s leftover anger." },
+  { name: "Failed Colony", blurb: "Settlers tried and died. Their goods, notes, and unfinished walls remain." },
+  { name: "Forgotten Temple", blurb: "A dead or forbidden god’s house. The rites may still work for anyone foolish enough to finish them." },
+  { name: "Living Dungeon", blurb: "The structure grows, shifts, or digests. Maps go stale in a season." },
+  { name: "Outsider Remnant", blurb: "Xenoformers, folded men, or their engines left a pocket that still does not love human lungs." },
+  { name: "Rebel Hideout", blurb: "Bandits, exiles, or a pretender’s court are using the ruin as a roof." },
+  { name: "Sealed Evil", blurb: "A bound thing waits under a name the locals will not say twice." },
+  { name: "Treasure Vault", blurb: "Someone stored real wealth here and did not live to come back for it." },
+  { name: "War Ruin", blurb: "A fortress or city died in a fight. Unexploded Workings and old grudges share the rubble." },
+  { name: "Wild Magic", blurb: "Spells misbehave. Useful, if you enjoy betting your face." },
+];
+
+const byName = (list: PlaceTag[]) => {
+  const map = new Map(list.map((t) => [t.name.toLowerCase(), t]));
+  return (name: string): PlaceTag | undefined => map.get(name.toLowerCase());
+};
+
+export const communityTagByName = byName(COMMUNITY_TAGS);
+export const courtTagByName = byName(COURT_TAGS);
+export const ruinTagByName = byName(RUIN_TAGS);
+
+export function tagBlurb(name: string): string | undefined {
+  return communityTagByName(name)?.blurb ?? courtTagByName(name)?.blurb ?? ruinTagByName(name)?.blurb;
+}
